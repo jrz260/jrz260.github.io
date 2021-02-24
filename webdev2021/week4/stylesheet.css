@@ -1,0 +1,50 @@
+
+body {
+    background-color: rgb(214, 184, 189);
+
+}
+
+
+
+
+#ojoderecho {
+    background-image: url(right_open.jpg);
+    height: 450px;
+    float:right;
+    width: 450px;
+    border: solid 5px;
+    border-color: black;
+}
+
+#ojoderecho:hover {
+    background-image: url(right_closed.jpg);
+
+}
+
+
+
+#ojoizq {
+    background-image: url(left_open.jpg);
+    height: 450px;
+    float:left;
+    width: 450px;
+    border: solid 5px;
+    border-color: black;
+}
+
+#ojoizq:hover {
+    background-image: url(left_closed.jpg);
+}
+
+#boca {
+    background-image: url(smile.jpg);
+    height: 490px;
+    width: 980px;
+    border: solid 5px;
+    border-color: black;
+}
+
+#boca:hover {
+    background-image: url(serious.jpg);
+
+}
