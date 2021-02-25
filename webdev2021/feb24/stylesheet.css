@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(206, 220, 242);
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    padding: 0px;
+    max-width: 1500px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+h1{
+    color: rgb(48, 77, 117);
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px; 
+}
+
+.eyes{
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.column{
+    flex: 1;
+    margin: 0px;
+    padding: 0px;
+    transition: 0.3s;
+}
+
+#ojoderecho {
+    border-radius: 120px; 
+    background-color: white;
+    height: 225px;
+    width: 225px;
+    border: solid 10px;
+    border-color: black;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+#ojoderecho:hover {
+    background-color: black;
+
+}
+
+#centro {
+    background-image: url(right_open.jpg);
+    height: 225px;
+    width: 150px;
+    visibility: hidden;
+}
+
+
+#ojoizq {
+    border-radius: 120px; 
+    background-color: white;
+    height: 225px;
+    width: 225px;
+    border: solid 10px;
+    border-color: black;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+#ojoizq:hover {
+    background-color: black;
+}
+
+
+#nariz {
+    background-color: rgb(222, 180, 171);
+    height: 200px;
+    width: 120px;
+    border: solid 10px;
+    border-color: black;
+}
+
+#boca {
+    border-radius: 25px;
+    background-color: rgb(222, 180, 171);
+    height: 100px;
+    width: 480px;
+    border: solid 10px;
+    border-color: black;
+    margin: 5px 0;
+    justify-content: center;
+}
+
+#boca:hover {
+    background-color: black;
+
+}
