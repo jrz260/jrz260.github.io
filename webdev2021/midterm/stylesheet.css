@@ -1,0 +1,260 @@
+#norte{
+    background-color: blue;
+}
+
+
+
+body {
+    margin: 0;
+    margin-top: 50px;
+}
+
+body#norte{background-color:rgb(222,222,157);}
+body#centro{background-color:rgb(165,212,236);}
+body#sur{background-color:rgb(244,201,220);}
+
+header {
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}
+
+
+
+#artwork {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0.5vw;
+    padding-top: 10px;
+}
+
+#sombrero {
+    background-image: url(sombrero.jpg);
+    width: 400px;
+    height: 441px;
+    margin: 0.5vw;
+}
+#sombrero:hover{
+    opacity: 0.5;
+}
+
+#ceramicachihuahua {
+    background-image: url(ceramicachihuahua.jpg);
+    width: 400px;
+    height: 441px;
+    margin: 0.5vw;
+}
+#ceramicachihuahua:hover{
+    opacity: 0.5;
+}
+
+#sarape {
+    background-image: url(sarape.jpg);
+    width: 400px;
+    height: 441px;
+    margin: 0.5vw;
+}
+#sarape:hover{
+    opacity: 0.5;
+}
+
+#arbol {
+    background-image: url(arbol.jpg);
+    width: 400px;
+    height: 441px;
+    margin: 0.5vw;
+}
+#arbol:hover{
+    opacity: 0.5;
+}
+#huichol {
+    background-image: url(huichol.jpg);
+    width: 400px;
+    height: 441px;
+    margin: 0.5vw;
+}
+#huichol:hover{
+    opacity: 0.5;
+}
+#plata {
+    background-image: url(plata.jpg);
+    width: 400px;
+    height: 441px;
+    margin: 0.5vw;
+}
+#plata:hover{
+    opacity: 0.5;
+}
+#talavera {
+    background-image: url(talabera.jpg);
+    width: 400px;
+    height: 441px;
+    margin: 0.5vw;
+}
+#talavera:hover{
+    opacity: 0.5;
+}
+
+#textileschiapas {
+    background-image: url(textileschiapas.jpg);
+    width: 400px;
+    height: 441px;
+    margin: 0.5vw;
+}
+#textileschiapas:hover{
+    opacity: 0.5;
+}
+
+#alebrije {
+    background-image: url(alebrije.jpg);
+    width: 400px;
+    height: 441px;
+    margin: 0.5vw;
+}
+
+#alebrije:hover{
+    opacity: 0.5;
+}
+#barronegro {
+    background-image: url(barronegro.jpg);
+    width: 400px;
+    height: 441px;
+    margin: 0.5vw;
+}
+
+#barronegro:hover{
+    opacity: 0.5;
+}
+
+
+
+
+
+#text {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0.5vw;
+    padding-top: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 14px;
+    font-family: arial;  
+}
+#text_sombrero{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: arial;
+    text-align: justify-all;  
+}
+#text_ceramicachihuahua{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: arial;
+    text-align: justify-all;  
+}
+#text_sarape{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: arial;
+    text-align: justify-all;  
+}
+
+#text_arbol{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: arial;
+    text-align: justify-all;  
+}
+#text_huichol{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: arial;
+    text-align: justify-all;
+}
+#text_plata{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: arial;
+    text-align: justify-all;
+}
+#text_talavera{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: arial;
+    text-align: justify-all;
+}
+#text_textileschiapas{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: arial;
+    text-align: justify-all;
+}
+#text_alebrije{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: arial;
+    text-align: justify-all;
+}
+#text_barronegro{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: arial;
+    text-align: justify-all;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+}
+
+.btn{
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: none;
+    margin: 16px;
+}
+
+.btn:hover{
+    background-color: black;
+}
