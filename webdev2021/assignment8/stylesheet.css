@@ -1,0 +1,55 @@
+
+#title{	
+	color: red;
+	text-align: center;
+	font-size: 40px;
+	font-family: rockwell;
+}
+#text{
+    padding: 3vh;
+    margin: 1vh;
+    font-family: rockwell;
+    font-size: 25px;
+}
+
+body {
+    background-color: pink;
+    padding: 3vw;
+ }  
+
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0.5vw;
+    padding-top: 10px;
+}
+
+#multiplication {
+    font-family: rockwell;
+    width: 400px;
+    height: 441px;
+    margin: 0.5vw;
+    font-size: 42px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+#countdown {;
+    font-family: rockwell;
+    color: red;
+    width: 400px;
+    height: 441px;
+    margin: 0.5vw;
+    font-size: 250px;
+}
+
+#answer {
+	margin: 0;
+	font-size: 30px;
+	font-family: rockwell;
+}
+
