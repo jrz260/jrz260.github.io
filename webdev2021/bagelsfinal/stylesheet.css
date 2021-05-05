@@ -2,20 +2,55 @@
 body {
     margin: 0;
     margin-top: 50px;
-    background-color: rgb(237, 241, 252);
+    background-color: #f9f6f0
+}
+
+#navbartitle{ 
+    font-family: 'Liu Jian Mao Cao', cursive; 
 }
 
 
-h1 {
+#navbarSupportedContent{ 
+    font-family: 'Liu Jian Mao Cao', cursive; 
+}
+
+#title {
     display: flex;
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     justify-content: center;
-    font-size: 60px; 
+    font-size: 80px; 
     font-family: 'Liu Jian Mao Cao', cursive;
-
+    color: #ff4500;
+    
 }
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#make{
+    background-image: url(make.jpg);
+    height: 400px;
+    width: 400px;
+    border: solid 5.5px;
+    border-color: #6f5b3e;
+    margin-right: 10px;
+}
+
+#find{
+    background-image: url(find.jpg);
+    height: 400px;
+    width: 400px;
+    border: solid 5.5px;
+    border-color: #6f5b3e;
+}
+
 
 #bagel {
     display: flex;
