@@ -6,15 +6,13 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta charset="utf-8">
    <link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
-   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+   <link href="https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-   
-
- 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+    <script src="file.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
  </head>
 
 <body>
@@ -53,13 +51,49 @@
 			Choose ingredients from the menu to create your bagel!
 			</center>
 		</div>
-		<div id="bagel">
-				<img id="color" src="plate.png" width="500px" height="500px">
-				<img id="font" src="googlefont.jpeg" width="516px" height="400px">
-		</div>
 
-	</main>
+    
+<section>
+
+  <div >
+      <img src="plate.png" class="plate">
+  </div>
+
+  <div class="form">
+    <form id="makeabagel" name="makingmybagel">
+
+    <div id="question1"> 
+      <p>Choose a type of bagel:</p>
+        <input type="radio" id="bread" name="question1" value="Plain"> Plain Bagel <br>
+        <input type="radio" id="bread" name="question1" value="Everything"> Everything Bagel <br>
+        <input type="radio" id="bread" name="question1" value="CinnamonRasin"> Cinnamon Rasin <br>
+    </div>
+
+    <div id="question2">  
+      <p>First ingredient:</p>
+        <input type="radio" id="bread" name="question2" value="PeanutButter"> Peanut Butter <br>
+        <input type="radio" id="bread" name="question2" value="Egg"> Egg <br>
+        <input type="radio" id="bread" name="question2" value="CreamCheese"> Cream Cheese <br>
+    </div>
+      
+    <div id="question3">  
+      <p>Final Topping:</p>
+        <input type="radio" id="bread" name="question3" value="Bacon"> Bacon and Cheese <br>
+        <input type="radio" id="bread" name="question3" value="Salmon"> Smoked Salmon <br>
+        <input type="radio" id="bread" name="question3" value="Jelly"> Jelly <br>
+    </div>
+
+    <div id="submit">
+      <input id="button" type="button" value="I'm Finished" onclick="check();">
+    </div>
+
+    </form>
+	</div>
+
+</section>
+
+  </main>
+
 </body>
-
 
 </html>

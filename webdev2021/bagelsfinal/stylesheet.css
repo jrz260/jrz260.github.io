@@ -2,7 +2,7 @@
 body {
     margin: 0;
     margin-top: 50px;
-    background-color: #f9f6f0
+    background-color: #f9f6f0;
 }
 
 #navbartitle{ 
@@ -27,29 +27,153 @@ body {
     
 }
 
-.buttons{
+#button12{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 10px;
+    margin: 0.5vw;
+    padding-top: 10px;
 }
 
-#make{
-    background-image: url(make.jpg);
-    height: 400px;
-    width: 400px;
-    border: solid 5.5px;
-    border-color: #6f5b3e;
-    margin-right: 10px;
+button1
+
+.button1 {
+  position: relative;
+  width: 50%;
 }
 
-#find{
-    background-image: url(find.jpg);
-    height: 400px;
-    width: 400px;
-    border: solid 5.5px;
-    border-color: #6f5b3e;
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding-left: 10px;
 }
+
+.midmake {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 155%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.button1:hover .image {
+  opacity: 0.3;
+}
+
+.button1:hover .midmake {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+button2
+
+.button2 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding-right: 10px;
+}
+
+.midfind {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 155%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.button2:hover .image {
+  opacity: 0.3;
+}
+
+.button2:hover .midfind {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.plate{
+  width: 450px;
+  height:450px;
+}
+
+.form{
+  text-align: left;
+  font-size: 18px;
+  margin-left: 50px;
+    font-family: arial;
+}
+
+
+
+#form{
+  justify-content: center;
+}
+
+
+#question1{
+    justify-content: center;
+    flex-direction: row;
+    margin: 0.5vw;
+    padding-top: 10px;
+}
+
+#question2{
+    justify-content: center;
+    flex-direction: row;
+    margin: 0.5vw;
+    padding-top: 10px;
+}
+
+#question3{
+    justify-content: center;
+    flex-direction: row;
+    margin: 0.5vw;
+    padding-top: 10px;
+}
+
+
+
 
 
 #bagel {
@@ -57,7 +181,7 @@ body {
     justify-content: center;
     flex-direction: row;
     margin: 0.5vw;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 #map {
@@ -81,11 +205,5 @@ body {
     font-family: arial;  
 }
 
-#color{
-    margin: 0.5vw;
-}
 
-#font{
-    margin: 0.5vw;
-}
 
