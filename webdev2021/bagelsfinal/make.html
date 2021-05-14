@@ -55,25 +55,32 @@
     
 <section>
 
-  <div >
-      <img src="plate.png" class="plate">
+  <div>
+      <img id="plate" src="plate.png" class="plate">   
   </div>
 
   <div class="form">
-    <form id="makeabagel" name="makingmybagel">
+    <form id="makeabagel" name="makeabagel">
 
     <div id="question1"> 
       <p>Choose a type of bagel:</p>
         <input type="radio" id="bread" name="question1" value="Plain"> Plain Bagel <br>
         <input type="radio" id="bread" name="question1" value="Everything"> Everything Bagel <br>
         <input type="radio" id="bread" name="question1" value="CinnamonRasin"> Cinnamon Rasin <br>
+          <div id="submit">
+            <input id="button" type="button" value="I'm Sure" onclick="checkbread();">
+          </div>
     </div>
+
 
     <div id="question2">  
       <p>First ingredient:</p>
         <input type="radio" id="bread" name="question2" value="PeanutButter"> Peanut Butter <br>
         <input type="radio" id="bread" name="question2" value="Egg"> Egg <br>
         <input type="radio" id="bread" name="question2" value="CreamCheese"> Cream Cheese <br>
+          <div id="submit">
+            <input id="button" type="button" value="I'm Sure" onclick="check1();">
+          </div> 
     </div>
       
     <div id="question3">  
@@ -81,10 +88,9 @@
         <input type="radio" id="bread" name="question3" value="Bacon"> Bacon and Cheese <br>
         <input type="radio" id="bread" name="question3" value="Salmon"> Smoked Salmon <br>
         <input type="radio" id="bread" name="question3" value="Jelly"> Jelly <br>
-    </div>
-
-    <div id="submit">
-      <input id="button" type="button" value="I'm Finished" onclick="check();">
+          <div id="submit">
+            <input id="button" type="button" value="I'm Sure" onclick="check2();">
+          </div>       
     </div>
 
     </form>
